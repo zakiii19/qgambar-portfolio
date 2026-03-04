@@ -74,6 +74,9 @@ export default function App() {
     <div className={isDarkMode ? 'dark' : ''}>
       <style>
         {`
+          html {
+            scroll-behavior: smooth;
+          }
           @keyframes marquee {
             0% { transform: translateX(0%); }
             100% { transform: translateX(-25%); }
