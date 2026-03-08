@@ -97,7 +97,7 @@ export default function App() {
             
             {/* LEFT SIDE: Logo Only */}
             <div className="font-bold text-2xl tracking-tighter text-[#5E2CA5] dark:text-purple-400 cursor-pointer">
-              <img src="../public/vite.svg" alt="Qolbul Muzakilogo" className="w-8 h-8 inline-block mr-2" />
+              <img src="public/vite.svg" alt="Qolbul Muzakilogo" className="w-8 h-8 inline-block mr-2" />
               Qolbul Muzaki
             </div>
 
