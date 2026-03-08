@@ -82,7 +82,7 @@ export default function App() {
             100% { transform: translateX(-25%); }
           }
           .animate-marquee {
-            animation: marquee 25s linear infinite;
+            animation: marquee 50s linear infinite;
           }
           .animate-marquee:hover {
             animation-play-state: paused;
@@ -97,7 +97,8 @@ export default function App() {
             
             {/* LEFT SIDE: Logo Only */}
             <div className="font-bold text-2xl tracking-tighter text-[#5E2CA5] dark:text-purple-400 cursor-pointer">
-              qgambar.
+              <img src="../public/vite.svg" alt="Qolbul Muzakilogo" className="w-8 h-8 inline-block mr-2" />
+              Qolbul Muzaki
             </div>
 
             {/* RIGHT SIDE: Menu, CTA & Dark Mode */}
@@ -181,14 +182,28 @@ export default function App() {
             <div className="flex w-max animate-marquee opacity-50 hover:opacity-100 grayscale hover:grayscale-0 transition-all duration-500 cursor-default">
               {[...Array(4)].map((_, i) => (
                 <div key={i} className="flex flex-shrink-0 items-center justify-around gap-12 lg:gap-24 px-6 lg:px-12 w-max">
-                  <div className="flex items-center gap-2"><Hexagon size={24} className="text-blue-600 dark:text-blue-400"/><span className="text-xl font-bold font-serif text-gray-800 dark:text-gray-200 whitespace-nowrap">LJH Realty</span></div>
+                  {/* <div className="flex items-center gap-2"><Hexagon size={24} className="text-blue-600 dark:text-blue-400"/><span className="text-xl font-bold font-serif text-gray-800 dark:text-gray-200 whitespace-nowrap">LJH Realty</span></div>
                   <div className="flex items-center gap-2"><div className="w-6 h-6 bg-green-500 dark:bg-green-400 rounded-full"></div><span className="text-xl font-bold tracking-tighter text-gray-900 dark:text-white whitespace-nowrap">NeoBank</span></div>
                   <div className="flex items-center gap-2"><MonitorSmartphone size={24} className="text-indigo-500 dark:text-indigo-400"/><span className="text-xl font-semibold text-gray-800 dark:text-gray-200 whitespace-nowrap">SchoolTechId</span></div>
                   <span className="text-xl font-black uppercase tracking-widest text-gray-800 dark:text-gray-200 whitespace-nowrap">SMA N 11</span>
                   <div className="flex flex-col items-center leading-tight whitespace-nowrap">
                     <span className="text-sm font-bold text-yellow-600 dark:text-yellow-500 uppercase tracking-wider">1st Place</span>
                     <span className="text-lg font-bold text-gray-800 dark:text-gray-200">UNNES Poster</span>
-                  </div>
+                  </div> */}
+                  <div className="flex items-center gap-2"><img src="../public/Logo LJH.png" alt="LJH Realty Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">Semarang Kota</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo Platinum.png" alt="Platinum Logo" className='max-h-10'/></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo AMJD.SHOOT.png" alt="AMJD.SHOOT Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">AMJD.SHOOT</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo GANGLIOFID.png" alt="GANGLIOFID Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">GANGLIOFID</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo CKJ MANAGEMENT.png" alt="CKJ MANAGEMENT Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">CKJ MANAGEMENT</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo PHOTO INSTAX SEMARANG.png" alt="PHOTO INSTAX SEMARANG Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">PHOTO INSTAX SEMARANG</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo PRASADA FUSHION.png" alt="PRASADA FUSHION Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">PRASADA FUSHION</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo MEGACODIFY.png" alt="MEGACODIFY Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">MEGACODIFY</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo SCHOOLTECHID.png" alt="SCHOOLTECHID Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">SCHOOLTECHID</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo VIULA STUDIO.png" alt="VIULA STUDIO Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">VIULA STUDIO</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo GUDHA PRANAHARA INDONESIA.png" alt="GUDHA PRANAHARA INDONESIA Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">GUDHA PRANAHARA INDONESIA</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo INAGO DESIGN.png" alt="INAGO DESIGN Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">INAGO DESIGN</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo KOLAVIT.png" alt="KOLAVIT Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">KOLAVIT</span></div>
+                  <div className="flex items-center gap-2"><img src="../public/Logo PUSPAWARNA.png" alt="PUSPAWARNA Logo" className='max-h-10'/><span className="text-xl font-bold text-gray-800 dark:text-white whitespace-nowrap">PUSPAWARNA</span></div>
                 </div>
               ))}
             </div>
@@ -511,8 +526,8 @@ export default function App() {
 
         <footer className="bg-[#0a0a0a] text-gray-400 py-12 text-center text-sm border-t border-gray-900">
           <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="font-bold text-white text-2xl tracking-tighter">qgambar.</div>
-            <p>&copy; 2026 qgambar. All rights reserved.</p>
+            <div className="font-bold text-white text-2xl tracking-tighter">Qolbul Muzaki</div>
+            <p>&copy; 2026 Qolbul Muzaki All rights reserved.</p>
             <div className="flex gap-8">
               <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
               <a href="#" className="hover:text-white transition-colors">Behance</a>
