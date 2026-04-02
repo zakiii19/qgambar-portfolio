@@ -32,7 +32,7 @@ export default function App() {
     const body = encodeURIComponent(`Nama: ${name}\nEmail: ${email}\nLayanan yang dibutuhkan: ${service}\n\nDetail Proyek:\n${message}`);
     
     // Buka aplikasi email default
-    window.location.href = `mailto:zakiqolbulmuzaki@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:qolbulmuzaki@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const portfolioItems = [
@@ -48,25 +48,25 @@ export default function App() {
     { title: 'Anil Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/5b/2d/08/5b2d0843aa1955c899c839826d172d6a.jpg', link: 'https://pin.it/4zFlBBNBL' },
     { title: 'GreenEarth Guidelines', category: 'Branding', img: 'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
     
-    // Packaging Projects
-    { title: 'Rice Bowl Die-cut Sleeve', category: 'Packaging', img: 'https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'Peak Roast Coffee Bags', category: 'Packaging', img: 'https://images.unsplash.com/photo-1606240724602-5b21f896eae8?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'Aura Cosmetics Labels', category: 'Packaging', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'NatureBites Snack Box', category: 'Packaging', img: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    // Packaging and Print Projects
+    { title: 'Rice Bowl Die-cut Sleeve', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    { title: 'Peak Roast Coffee Bags', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1606240724602-5b21f896eae8?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    { title: 'Aura Cosmetics Labels', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    { title: 'NatureBites Snack Box', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
     
-    // Print Projects
-    { title: 'SchoolTechId Marketing', category: 'Print', img: 'https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=800&q=80', link: 'https://instagram.com' },
-    { title: 'Luxury Villa Catalog', category: 'Print', img: 'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80', link: 'https://instagram.com' },
-    { title: 'UNNES Tech Seminar Poster', category: 'Print', img: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80', link: 'https://instagram.com' },
-    { title: 'Summer Fest Brochure', category: 'Print', img: 'https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=800&q=80', link: 'https://instagram.com' }
+    // Social Media Projects
+    { title: 'LJH Realty Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/9d/9b/84/9d9b84221cfc1e0f90f7a16fa71d9900.jpg', link: 'https://pin.it/iMpYSKDaL' },
+    { title: 'CKJ Management Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/c2/84/d0/c284d04354990f6dc5b323304faf783c.jpg', link: 'https://pin.it/1fX64kvCq' },
+    { title: 'Prasada Fushion Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/3d/51/cc/3d51cc986d359c44f6d5fb32313ab014.jpg', link: 'https://pin.it/qGhYu5zSC' },
+    { title: 'Personal LinkedIn', category: 'Social Media', img: 'https://i.pinimg.com/736x/54/1c/01/541c017dc3de7f784d1a3aefa59402d4.jpg', link: 'https://pin.it/4ZzFia7sR' }
   ];
 
   const filteredPortfolio = filter === 'All' 
     ? [
         portfolioItems.find(item => item.category === 'UI/UX'),
         portfolioItems.find(item => item.category === 'Branding'),
-        portfolioItems.find(item => item.category === 'Packaging'),
-        portfolioItems.find(item => item.category === 'Print')
+        portfolioItems.find(item => item.category === 'Social Media'),
+        portfolioItems.find(item => item.category === 'Packaging and Print')
       ]
     : portfolioItems.filter(item => item.category === filter);
 
@@ -220,7 +220,7 @@ export default function App() {
               { icon: <MonitorSmartphone size={32} strokeWidth={1.5} />, title: 'UI/UX Design', desc: 'App and website interfaces, user flows, and usability improvements that convert.' },
               { icon: <Hexagon size={32} strokeWidth={1.5} />, title: 'Branding & Identity', desc: 'Memorable logos, comprehensive brand guidelines, and unique character mascots.' },
               { icon: <Megaphone size={32} strokeWidth={1.5} />, title: 'Marketing Collateral', desc: 'Eye-catching posters, social media carousels, and high-converting digital banners.' },
-              { icon: <Package size={32} strokeWidth={1.5} />, title: 'Packaging Design', desc: 'Physical product packaging, custom die-cut sleeves, and attractive labels.' }
+              { icon: <Package size={32} strokeWidth={1.5} />, title: 'Packaging and Print Design', desc: 'Physical product packaging, custom die-cut sleeves, and attractive labels.' }
             ].map((service, idx) => (
               <div key={idx} className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 dark:border-gray-800 group">
                 <div className="text-[#5E2CA5] dark:text-purple-400 mb-8 bg-purple-50 dark:bg-purple-900/30 w-16 h-16 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:bg-[#5E2CA5] group-hover:text-white transition-all duration-300">
@@ -239,12 +239,12 @@ export default function App() {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Selected Works</h2>
-                <p className="text-gray-600 dark:text-gray-400 max-w-xl">A curated selection of projects demonstrating versatility across digital and print mediums.</p>
+                <p className="text-gray-600 dark:text-gray-400 max-w-xl">A curated selection of projects demonstrating versatility across digital and Social Media mediums.</p>
               </div>
               
               {/* Filters */}
               <div className="flex flex-wrap gap-2">
-                {['All', 'UI/UX', 'Branding', 'Packaging', 'Print'].map(f => (
+                {['All', 'UI/UX', 'Branding', 'Social Media','Packaging and Print'].map(f => (
                   <button 
                     key={f}
                     onClick={() => setFilter(f)}
@@ -282,7 +282,7 @@ export default function App() {
             
             <div className="mt-12 text-center">
               <button 
-                onClick={() => window.open('https://id.pinterest.com/', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://id.pinterest.com/qolbulmu_', '_blank', 'noopener,noreferrer')}
                 className="inline-flex items-center gap-2 text-[#5E2CA5] dark:text-purple-400 font-bold hover:text-[#4a2384] dark:hover:text-purple-300 transition-colors bg-transparent border-none cursor-pointer"
               >
                 View Full Archive <ArrowRight size={16} />
@@ -360,35 +360,7 @@ export default function App() {
           </div>
 
           {/* Bottom Row: Design Process (Horizontal Layout) */}
-          <div className="bg-white dark:bg-gray-900 p-8 sm:p-12 lg:p-16 rounded-[2.5rem] shadow-xl shadow-purple-900/5 dark:shadow-none border border-gray-100 dark:border-gray-800 transition-colors duration-300 relative overflow-hidden">
-            {/* Decorative background element */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-purple-100 to-transparent dark:from-purple-900/20 rounded-bl-full -z-10 opacity-50"></div>
-            
-            <div className="text-center mb-16">
-              <h3 className="text-3xl font-bold text-gray-900 dark:text-white">The Design Process</h3>
-              <p className="text-gray-500 dark:text-gray-400 mt-4 max-w-2xl mx-auto">A structured, system-analyst approach to transforming complex problems into elegant, user-centric solutions.</p>
-            </div>
-            
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 relative">
-              {/* Connecting Line (Desktop Only) */}
-              <div className="hidden lg:block absolute top-6 left-[10%] right-[10%] h-px bg-purple-100 dark:bg-gray-700 z-0"></div>
-              
-              {[
-                { title: 'Discovery', desc: 'Analyzing requirements, constraints, and target audience.' },
-                { title: 'Concept', desc: 'Wireframes, sketches, and establishing visual direction.' },
-                { title: 'Refinement', desc: 'High-fidelity crafting with iterative feedback loops.' },
-                { title: 'Delivery', desc: 'Final asset handover and structured deployment.' }
-              ].map((step, idx) => (
-                <div key={idx} className="relative z-10 flex flex-col items-center text-center group cursor-default">
-                  <div className="w-12 h-12 mb-6 rounded-full bg-white dark:bg-gray-900 flex items-center justify-center text-[#5E2CA5] dark:text-purple-400 font-bold border-2 border-purple-100 dark:border-gray-700 group-hover:bg-[#5E2CA5] group-hover:text-white group-hover:border-[#5E2CA5] transition-all duration-300 shadow-sm group-hover:scale-110">
-                    {idx + 1}
-                  </div>
-                  <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-[#5E2CA5] dark:group-hover:text-purple-400 transition-colors">{step.title}</h4>
-                  <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm px-2">{step.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          
         </section>
 
         {/* 3.7 CONTACT & FOOTER */}
@@ -401,13 +373,13 @@ export default function App() {
               </p>
               
               <div className="space-y-6">
-                <a href="mailto:zakiqolbulmuzaki@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group">
+                <a href="mailto:qolbulmuzaki@gmail.com" className="flex items-center gap-4 text-gray-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center group-hover:bg-[#5E2CA5] transition-colors">
                     <Mail size={20} />
                   </div>
                   <div>
                     <span className="block text-sm text-gray-500">Email Me</span>
-                    <span className="font-semibold">zakiqolbulmuzaki@gmail.com</span>
+                    <span className="font-semibold">qolbulmuzaki@gmail.com</span>
                   </div>
                 </a>
               </div>
@@ -423,22 +395,22 @@ export default function App() {
                   {[
                     {
                       name: 'LinkedIn',
-                      link: 'https://linkedin.com/in/zakiqolbulmuzaki', // Sesuaikan link asli Anda di sini
+                      link: 'https://linkedin.com/in/qolbulmuzaki', // Sesuaikan link asli Anda di sini
                       icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                     },
                     {
                       name: 'Instagram',
-                      link: 'https://instagram.com/zakiqolbulmuzaki', // Sesuaikan link asli Anda di sini
+                      link: 'https://instagram.com/qgambar_', // Sesuaikan link asli Anda di sini
                       icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
                     },
                     {
                       name: 'Pinterest',
-                      link: 'https://pinterest.com/zakiqolbulmuzaki', // Sesuaikan link asli Anda di sini
+                      link: 'https://id.pinterest.com/qolbulmu_', // Sesuaikan link asli Anda di sini
                       icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.168 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.367 18.592 0 12.017 0z"/></svg>
                     },
                     {
                       name: 'Medium',
-                      link: 'https://medium.com/@zakiqolbulmuzaki', // Sesuaikan link asli Anda di sini
+                      link: 'https://medium.com/@qolbulmuzaki', // Sesuaikan link asli Anda di sini
                       icon: <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
                     }
                   ].map((platform) => (
