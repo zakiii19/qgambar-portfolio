@@ -37,15 +37,15 @@ export default function App() {
 
   const portfolioItems = [
     // UI/UX Projects
-    { title: 'NeoBank Dashboard Revamp', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
-    { title: 'ShopNext Mobile App Flow', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
-    { title: 'LJH Property Portal', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
-    { title: 'Medica Patient Dashboard', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
+    { title: 'UI / UX Study Case Pijar Music', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*Zkr8P7Iu5ysYvnVOJbUJvw.png', link: 'https://medium.com/@qolbulmuzaki/ui-ux-study-case-pijar-music-9b8632e3e935' },
+    { title: 'Digital Banking Dashboard', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*cMEL8rWqfwml3sh82jixGQ.png', link: 'https://medium.com/@qolbulmuzaki/digital-banking-dashboard-6d0fd93b6ec5' },
+    { title: 'Redesain Aplikasi Surplus', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*FcYsYuowHDLTZHpNDstYMA.png', link: 'https://medium.com/@qolbulmuzaki/redesain-aplikasi-surplus-final-project-studi-independen-kampus-merdeka-di-greatedu-a3ef88787dff' },
+    // { title: 'Medica Patient Dashboard', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
     
     // Branding Projects
-    { title: 'Golden Reunion 50th Logo', category: 'Branding', img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
-    { title: 'Quantum Data Identity', category: 'Branding', img: 'https://images.unsplash.com/photo-1613450371465-ee169a71a5c6?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
-    { title: 'Brew & Beans Mascot', category: 'Branding', img: 'https://images.unsplash.com/photo-1629429408209-1f912961bbc3?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
+    { title: 'AMJD.Shoot Logo', category: 'Branding', img: 'https://i.pinimg.com/1200x/68/5e/ee/685eee57e1dacb49f9ed4c679090589e.jpg', link: 'https://pin.it/ThAVavKrH' },
+    { title: 'OKPT Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/ea/d9/2c/ead92cbe9c8b376f3cfdcd8d6fdcf52d.jpg', link: 'https://pin.it/1rYsQxCd5' },
+    { title: 'Anil Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/5b/2d/08/5b2d0843aa1955c899c839826d172d6a.jpg', link: 'https://pin.it/4zFlBBNBL' },
     { title: 'GreenEarth Guidelines', category: 'Branding', img: 'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
     
     // Packaging Projects
