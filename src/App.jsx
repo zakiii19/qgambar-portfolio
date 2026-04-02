@@ -500,10 +500,10 @@ export default function App() {
             <div className="font-bold text-white text-2xl tracking-tighter">Qolbul Muzaki</div>
             <p>&copy; 2026 Qolbul Muzaki All rights reserved.</p>
             <div className="flex gap-8">
-              <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-white transition-colors">Behance</a>
-              <a href="#" className="hover:text-white transition-colors">Dribbble</a>
-              <a href="#" className="hover:text-white transition-colors">Instagram</a>
+              <a href="https://linkedin.com/in/qolbulmuzaki" className="hover:text-white transition-colors">LinkedIn</a>
+              <a href="https://instagram.com/qgambar_" className="hover:text-white transition-colors">Instagram</a>
+              <a href="https://id.pinterest.com/qolbulmu_" className="hover:text-white transition-colors">Pinterest</a>
+              <a href="https://medium.com/@qolbulmuzaki" className="hover:text-white transition-colors">Medium</a>
             </div>
           </div>
         </footer>
