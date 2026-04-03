@@ -40,25 +40,28 @@ export default function App() {
     { title: 'UI / UX Study Case Pijar Music', category: 'UI/UX', img: 'cover/pijar.png', link: 'https://medium.com/@qolbulmuzaki/ui-ux-study-case-pijar-music-9b8632e3e935' },
     { title: 'Digital Banking Dashboard', category: 'UI/UX', img: 'cover/bank.png', link: 'https://medium.com/@qolbulmuzaki/digital-banking-dashboard-6d0fd93b6ec5' },
     { title: 'Redesain Aplikasi Surplus', category: 'UI/UX', img: 'cover/surplus.png', link: 'https://medium.com/@qolbulmuzaki/redesain-aplikasi-surplus-final-project-studi-independen-kampus-merdeka-di-greatedu-a3ef88787dff' },
-    // { title: 'Medica Patient Dashboard', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
+    { title: 'Will be updated soon', category: 'UI/UX', img: 'cover/soon.png', link: 'https://medium.com/@qolbulmuzaki' },
     
     // Branding Projects
     { title: 'AMJD.Shoot Logo', category: 'Branding', img: 'https://i.pinimg.com/1200x/68/5e/ee/685eee57e1dacb49f9ed4c679090589e.jpg', link: 'https://pin.it/ThAVavKrH' },
     { title: 'OKPT Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/ea/d9/2c/ead92cbe9c8b376f3cfdcd8d6fdcf52d.jpg', link: 'https://pin.it/1rYsQxCd5' },
     { title: 'Anil Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/5b/2d/08/5b2d0843aa1955c899c839826d172d6a.jpg', link: 'https://pin.it/4zFlBBNBL' },
-    { title: 'GreenEarth Guidelines', category: 'Branding', img: 'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?auto=format&fit=crop&w=800&q=80', link: 'https://behance.net' },
+    { title: 'Raya Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/b9/c2/39/b9c239593f15f95218ba98f74da2476d.jpg', link: 'https://pin.it/5J3YRf5Uc' },
     
     // Packaging and Print Projects
-    { title: 'Rice Bowl Die-cut Sleeve', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1628102491629-778571d893a3?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'Peak Roast Coffee Bags', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1606240724602-5b21f896eae8?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'Aura Cosmetics Labels', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
-    { title: 'NatureBites Snack Box', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
+    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
+    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
+    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
+    // { title: 'Peak Roast Coffee Bags', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1606240724602-5b21f896eae8?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    // { title: 'Aura Cosmetics Labels', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
+    // { title: 'NatureBites Snack Box', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
     
     // Social Media Projects
-    { title: 'LJH Realty Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/9d/9b/84/9d9b84221cfc1e0f90f7a16fa71d9900.jpg', link: 'https://pin.it/iMpYSKDaL' },
-    { title: 'CKJ Management Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/c2/84/d0/c284d04354990f6dc5b323304faf783c.jpg', link: 'https://pin.it/1fX64kvCq' },
-    { title: 'Prasada Fushion Social Media', category: 'Social Media', img: 'https://i.pinimg.com/736x/3d/51/cc/3d51cc986d359c44f6d5fb32313ab014.jpg', link: 'https://pin.it/qGhYu5zSC' },
-    { title: 'Personal LinkedIn', category: 'Social Media', img: 'https://i.pinimg.com/736x/54/1c/01/541c017dc3de7f784d1a3aefa59402d4.jpg', link: 'https://pin.it/4ZzFia7sR' }
+    { title: 'LJH Realty Social Media', category: 'Social Media', img: 'cover/ljh.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/ljh-realty-semarang-kota/' },
+    { title: 'CKJ Management Social Media', category: 'Social Media', img: 'cover/ckj.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/ckj-management/' },
+    { title: 'Prasada Fushion Social Media', category: 'Social Media', img: 'cover/prasada.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/prasada-fushion/' },
+    { title: 'Will be updated soon', category: 'Social Media', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' }
   ];
 
   const filteredPortfolio = filter === 'All' 
@@ -239,7 +242,7 @@ export default function App() {
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Selected Works</h2>
-                <p className="text-gray-600 dark:text-gray-400 max-w-xl">A curated selection of projects demonstrating versatility across digital and Social Media mediums.</p>
+                <p className="text-gray-600 dark:text-gray-400 max-w-xl">A curated selection of projects demonstrating versatility across digital and Social Media.</p>
               </div>
               
               {/* Filters */}
@@ -308,28 +311,16 @@ export default function App() {
               <p className="text-gray-600 dark:text-gray-400 mb-6 text-lg leading-relaxed">
                 I blend a <span className="font-semibold text-gray-900 dark:text-white">system analyst's logical mindset</span> with a designer's creative eye. My goal is to bridge the gap between complex technical requirements and beautiful, intuitive aesthetics. Whether it's an app interface, a memorable mascot, or striking packaging, I design with purpose and precision.
               </p>
-            </div>
-
-            {/* Right Column: Career History Timeline */}
-            <div>
+              
+               <div>
               <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white flex items-center gap-3">
                 <Briefcase className="text-[#5E2CA5]" size={28} /> 
-                Experience & Background
+                Background
               </h3>
               
-              <div className="space-y-8 border-l-2 border-purple-100 dark:border-purple-900/50 ml-3 pl-8 relative">
-                
-                {/* Experience 1 */}
-                <div className="relative group">
-                  <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-[#F9F9FA] dark:bg-[#121212] border-4 border-[#5E2CA5] group-hover:scale-125 transition-transform duration-300"></span>
-                  <h4 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-[#5E2CA5] dark:group-hover:text-purple-400 transition-colors">Graphic Designer</h4>
-                  <p className="text-[#5E2CA5] dark:text-purple-400 font-semibold text-sm mb-2 mt-1">Real Estate Sector (LJH Realty) • Present</p>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                    Leading creative direction for property marketing, producing high-converting digital assets, brand identities, and compelling promotional collateral.
-                  </p>
-                </div>
-
-                {/* Education */}
+              <div className="space-y-8 ml-3 pl-8 relative">
+              
+              {/* Education */}
                 <div className="relative group">
                   <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-[#F9F9FA] dark:bg-[#121212] border-4 border-gray-300 dark:border-gray-600 group-hover:border-[#5E2CA5] group-hover:scale-125 transition-all duration-300"></span>
                   <div className="flex items-center gap-2 mb-1">
@@ -353,6 +344,36 @@ export default function App() {
                     <li>BNSP Certified System Analyst</li>
                     <li>Microsoft Office Specialist: Excel Associate</li>
                   </ul>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            {/* Right Column: Career History Timeline */}
+            <div>
+              <h3 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white flex items-center gap-3">
+                <Briefcase className="text-[#5E2CA5]" size={28} /> 
+                Experience
+              </h3>
+              
+              <div className="space-y-8 border-l-2 border-purple-100 dark:border-purple-900/50 ml-3 pl-8 relative">
+                
+                {/* Experience 1 */}
+                <div className="relative group">
+                  <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-[#F9F9FA] dark:bg-[#121212] border-4 border-[#5E2CA5] group-hover:scale-125 transition-transform duration-300"></span>
+                  <h4 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-[#5E2CA5] dark:group-hover:text-purple-400 transition-colors">Graphic Designer</h4>
+                  <p className="text-[#5E2CA5] dark:text-purple-400 font-semibold text-sm mb-2 mt-1">Real Estate Sector (LJH Realty) • Present</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Leading creative direction for property marketing, producing high-converting digital assets, brand identities, and compelling promotional collateral.
+                  </p>
+                </div>
+                <div className="relative group">
+                  <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-[#F9F9FA] dark:bg-[#121212] border-4 border-[#5E2CA5] group-hover:scale-125 transition-transform duration-300"></span>
+                  <h4 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-[#5E2CA5] dark:group-hover:text-purple-400 transition-colors">Graphic Designer</h4>
+                  <p className="text-[#5E2CA5] dark:text-purple-400 font-semibold text-sm mb-2 mt-1">Real Estate Sector (LJH Realty) • Present</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Leading creative direction for property marketing, producing high-converting digital assets, brand identities, and compelling promotional collateral.
+                  </p>
                 </div>
 
               </div>
