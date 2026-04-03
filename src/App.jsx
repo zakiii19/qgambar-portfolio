@@ -37,9 +37,9 @@ export default function App() {
 
   const portfolioItems = [
     // UI/UX Projects
-    { title: 'UI / UX Study Case Pijar Music', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*Zkr8P7Iu5ysYvnVOJbUJvw.png', link: 'https://medium.com/@qolbulmuzaki/ui-ux-study-case-pijar-music-9b8632e3e935' },
-    { title: 'Digital Banking Dashboard', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*cMEL8rWqfwml3sh82jixGQ.png', link: 'https://medium.com/@qolbulmuzaki/digital-banking-dashboard-6d0fd93b6ec5' },
-    { title: 'Redesain Aplikasi Surplus', category: 'UI/UX', img: 'https://miro.medium.com/v2/resize:fit:640/format:webp/1*FcYsYuowHDLTZHpNDstYMA.png', link: 'https://medium.com/@qolbulmuzaki/redesain-aplikasi-surplus-final-project-studi-independen-kampus-merdeka-di-greatedu-a3ef88787dff' },
+    { title: 'UI / UX Study Case Pijar Music', category: 'UI/UX', img: 'cover/pijar.png', link: 'https://medium.com/@qolbulmuzaki/ui-ux-study-case-pijar-music-9b8632e3e935' },
+    { title: 'Digital Banking Dashboard', category: 'UI/UX', img: 'cover/bank.png', link: 'https://medium.com/@qolbulmuzaki/digital-banking-dashboard-6d0fd93b6ec5' },
+    { title: 'Redesain Aplikasi Surplus', category: 'UI/UX', img: 'cover/surplus.png', link: 'https://medium.com/@qolbulmuzaki/redesain-aplikasi-surplus-final-project-studi-independen-kampus-merdeka-di-greatedu-a3ef88787dff' },
     // { title: 'Medica Patient Dashboard', category: 'UI/UX', img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80', link: 'https://dribbble.com' },
     
     // Branding Projects
@@ -97,7 +97,7 @@ export default function App() {
             
             {/* LEFT SIDE: Logo Only */}
             <div className="font-bold text-2xl tracking-tighter text-[#5E2CA5] dark:text-purple-400 cursor-pointer">
-              <img src="image/vite.svg" alt="Qolbul Muzakilogo" className="w-8 h-8 inline-block mr-2" />
+              <img src="image/my-icon.png" alt="Qolbul Muzakilogo" className="w-10 h-10 inline-block mr-1 mb-2" />
               Qolbul Muzaki
             </div>
 
