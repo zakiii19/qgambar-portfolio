@@ -49,9 +49,9 @@ export default function App() {
     { title: 'Raya Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/b9/c2/39/b9c239593f15f95218ba98f74da2476d.jpg', link: 'https://pin.it/5J3YRf5Uc' },
     
     // Packaging and Print Projects
-    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
-    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
-    { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
+    { title: 'Kolavit Box Packaging', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/f7/2d/03/f72d03ad975fc1f3cf83cd54eb8e1338.jpg', link: 'https://pin.it/6wLVTwTgy' },
+    { title: 'OKPT Book Cover', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/a3/ef/09/a3ef09d16b643d2bd214cedb69897e7e.jpg', link: 'https://pin.it/1Z96pDVvu' },
+    { title: 'Photo Instax Banner', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/18/d4/13/18d4133c91349064bc9757b4864c2184.jpg', link: 'https://pin.it/4qTZF7oAM' },
     { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
     // { title: 'Peak Roast Coffee Bags', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1606240724602-5b21f896eae8?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
     // { title: 'Aura Cosmetics Labels', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
