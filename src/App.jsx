@@ -58,9 +58,9 @@ export default function App() {
     // { title: 'NatureBites Snack Box', category: 'Packaging and Print', img: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80', link: 'https://pinterest.com' },
     
     // Social Media Projects
-    { title: 'LJH Realty Social Media', category: 'Social Media', img: 'cover/ljh.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/ljh-realty-semarang-kota/' },
-    { title: 'CKJ Management Social Media', category: 'Social Media', img: 'cover/ckj.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/ckj-management/' },
-    { title: 'Prasada Fushion Social Media', category: 'Social Media', img: 'cover/prasada.png', link: 'https://id.pinterest.com/qolbulmu_/social-media/prasada-fushion/' },
+    { title: 'LJH Realty Social Media', category: 'Social Media', img: 'cover/ljh.png', link: 'https://id.pinterest.com/qolbulmu_/ljh-realty-semarang-kota/' },
+    { title: 'CKJ Management Social Media', category: 'Social Media', img: 'cover/ckj.png', link: 'https://id.pinterest.com/qolbulmu_/ckj-management/' },
+    { title: 'Prasada Fushion Social Media', category: 'Social Media', img: 'cover/prasada.png', link: 'https://id.pinterest.com/qolbulmu_/prasada-fushion/' },
     { title: 'Will be updated soon', category: 'Social Media', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' }
   ];
 
