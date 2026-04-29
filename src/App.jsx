@@ -40,7 +40,7 @@ export default function App() {
     { title: 'UI / UX Study Case Pijar Music', category: 'UI/UX', img: 'cover/pijar.png', link: 'https://medium.com/@qolbulmuzaki/ui-ux-study-case-pijar-music-9b8632e3e935' },
     { title: 'Digital Banking Dashboard', category: 'UI/UX', img: 'cover/bank.png', link: 'https://medium.com/@qolbulmuzaki/digital-banking-dashboard-6d0fd93b6ec5' },
     { title: 'Redesain Aplikasi Surplus', category: 'UI/UX', img: 'cover/surplus.png', link: 'https://medium.com/@qolbulmuzaki/redesain-aplikasi-surplus-final-project-studi-independen-kampus-merdeka-di-greatedu-a3ef88787dff' },
-    { title: 'Will be updated soon', category: 'UI/UX', img: 'cover/soon.png', link: 'https://medium.com/@qolbulmuzaki' },
+    { title: 'PLTMH Mobile App', category: 'UI/UX', img: 'cover/pltmh.png', link: 'https://medium.com/@qolbulmuzaki/ui-case-study-menjaga-efisiensi-pembangkit-listrik-mikro-hidro-melalui-data-real-time-2096f25fb30b' },
     
     // Branding Projects
     { title: 'AMJD.Shoot Logo', category: 'Branding', img: 'https://i.pinimg.com/1200x/68/5e/ee/685eee57e1dacb49f9ed4c679090589e.jpg', link: 'https://pin.it/ThAVavKrH' },
@@ -49,7 +49,7 @@ export default function App() {
     { title: 'Raya Mascot', category: 'Branding', img: 'https://i.pinimg.com/736x/b9/c2/39/b9c239593f15f95218ba98f74da2476d.jpg', link: 'https://pin.it/5J3YRf5Uc' },
     
     // Packaging and Print Projects
-    { title: 'Kolavit Box Packaging', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/f7/2d/03/f72d03ad975fc1f3cf83cd54eb8e1338.jpg', link: 'https://pin.it/6wLVTwTgy' },
+    { title: 'Kolavit Box Packaging', category: 'Packaging and Print', img: 'cover/kolavit.png', link: 'https://pin.it/6wLVTwTgy' },
     { title: 'OKPT Book Cover', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/a3/ef/09/a3ef09d16b643d2bd214cedb69897e7e.jpg', link: 'https://pin.it/1Z96pDVvu' },
     { title: 'Photo Instax Banner', category: 'Packaging and Print', img: 'https://i.pinimg.com/736x/18/d4/13/18d4133c91349064bc9757b4864c2184.jpg', link: 'https://pin.it/4qTZF7oAM' },
     { title: 'Will be updated soon', category: 'Packaging and Print', img: 'cover/soon.png', link: 'https://id.pinterest.com/qolbulmu_/' },
@@ -367,6 +367,7 @@ export default function App() {
                     Leading creative direction for property marketing, producing high-converting digital assets, brand identities, and compelling promotional collateral.
                   </p>
                 </div>
+                {/*
                 <div className="relative group">
                   <span className="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-[#F9F9FA] dark:bg-[#121212] border-4 border-[#5E2CA5] group-hover:scale-125 transition-transform duration-300"></span>
                   <h4 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-[#5E2CA5] dark:group-hover:text-purple-400 transition-colors">Graphic Designer</h4>
@@ -374,7 +375,7 @@ export default function App() {
                   <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
                     Leading creative direction for property marketing, producing high-converting digital assets, brand identities, and compelling promotional collateral.
                   </p>
-                </div>
+                </div>*/}
 
               </div>
             </div>
